@@ -1,0 +1,82 @@
+# Global
+
+*.log
+*.swp
+*.pyc
+.DS_Store
+
+# IDE: IntelliJ IDEA
+
+safeon_backend/.idea/
+safeon_backend/*.iws
+safeon_backend/*.iml
+safeon_backend/*.ipr
+safeon_backend/out/
+!safeon_backend/**/src/main/**/out/
+!safeon_backend/**/src/test/**/out/
+
+
+# IDE: VS Code
+
+safeon_frontend/.vscode/
+safeon_backend/.vscode/
+
+# ===================================================================
+# Flutter Frontend (safeon_frontend)
+
+# Miscellaneous
+safeon_frontend/**/*.class
+safeon_frontend/**/*.log
+safeon_frontend/**/*.pyc
+safeon_frontend/**/*.swp
+safeon_frontend/.atom/
+safeon_frontend/.build/
+safeon_frontend/.buildlog/
+safeon_frontend/.history
+safeon_frontend/.svn/
+safeon_frontend/.swiftpm/
+safeon_frontend/migrate_working_dir/
+
+# Flutter/Dart/Pub related
+safeon_frontend/**/doc/api/
+safeon_frontend/**/ios/Flutter/.last_build_id
+safeon_frontend/.dart_tool/
+safeon_frontend/.flutter-plugins-dependencies
+safeon_frontend/.pub-cache/
+safeon_frontend/.pub/
+safeon_frontend/build/
+safeon_frontend/coverage/
+
+# Symbolication
+safeon_frontend/app.*.symbols
+
+# Obfuscation
+safeon_frontend/app.*.map.json
+
+# Android Studio artifacts
+safeon_frontend/android/app/debug
+safeon_frontend/android/app/profile
+safeon_frontend/android/app/release
+
+# ===================================================================
+# Backend (Spring Boot) — safeon_backend
+
+
+# Gradle
+safeon_backend/.gradle/
+safeon_backend/build/
+safeon_backend/gradle/
+safeon_backend/out/
+safeon_backend/bin/
+
+# Spring Boot resource configs
+safeon_backend/src/main/resources/application.yml
+safeon_backend/src/main/resources/application-*.yml
+
+# NetBeans
+safeon_backend/nbproject/private/
+safeon_backend/nbbuild/
+safeon_backend/dist/
+safeon_backend/nbdist/
+safeon_backend/.nb-gradle/
+
